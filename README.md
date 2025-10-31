@@ -150,19 +150,18 @@ python Gwo_ann_ssn_3datasets.py
 ---
 ## 📈 Results & Performance
 
-Below is the summary output from the **Unified GA–ANN–SSN** model execution across all supported datasets:
+Below is the summary output from the **Unified GWO–ANN–SSN** model execution across all supported datasets:
 
 ```text
 ======================================================================
-GWO–ANN–SSN ALL DATASETS SUMMARY
+GWO-ANN-SSN ALL DATASETS SUMMARY
 ======================================================================
 
 Dataset      Test Acc   Val Acc    Features     Reduction    Classes 
 ----------------------------------------------------------------------
-plants       0.9246     0.9743     171/331          48.3%         30      
-aid          0.7600     1.0000     160/327          51.1%         30      
-lc25000      0.9756     0.9916     148/325          54.5%         5 
-======================================================================
+plants       0.9260     0.9809     142/331          57.1%      30      
+aid          0.7300     0.9980     132/327          59.6%      30      
+lc25000      0.9768     0.9968     124/325          61.8%       5       
 
 ```
 ---
